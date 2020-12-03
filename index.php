@@ -4,7 +4,7 @@
         <section class="indexIntro">
             
         <article class="information">
-            <h1>Welcome XXXXXXXXXXXXX to Gaming Room</h1>
+            <h1>Welcome to Gaming Room</h1>
             <img class="image-gaming" src="image/controller.png" alt= "controller">
 
         <h1>This is an intro</h1>

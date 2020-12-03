@@ -1,3 +1,4 @@
+<?php SESSION_START();?>
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 
@@ -24,6 +25,7 @@
                     echo "<li><a href='profile.php'>View Profile</a></li>";
                     echo "<li><a href='dashboard.php'>Dashboard</a></li>";
                     echo "<li><a href='mygames.php'>My Games</a></li>";
+                    echo "<li><a href='form.php'>Form</a></li>";
                     echo "<li><a href='includes/logout.inc.php'>Log Out</a></li>";
 
                 }

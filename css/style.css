@@ -1,13 +1,12 @@
-*{
-    margin:0; 
-    padding: 0; 
-
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-body{
-    background-color: #eee;
-    
-    font-family: sans-serif; 
+body {
+    background-color: lightgrey;
+    font-family: sans-serif;
 }
 
 
@@ -73,4 +72,173 @@ ul li a:hover{
     width: 200px;
     height: 200px;
 
+}
+
+
+.container {
+    margin: auto;
+    width: 500px;
+    max-width: 90%;
+}
+
+    .container form {
+        width: 100%;
+        height: 100%;
+        padding: 20px;
+        background: #d36582;
+        border-radius: 4px;
+        box-shadow: 0 8px 16px #111;
+        margin: 100px;
+        margin-left: 50px;
+    }
+
+        .container form h1 {
+            text-align: center;
+            margin-bottom: 24px;
+            color: #111;
+        }
+
+        .container form .form-control {
+            width: 100%;
+            height: 40px;
+            background: white;
+            border-radius: 4px;
+            border: 1px solid silver;
+            margin: 10px 0 18px 0;
+            padding: 0 10px;
+        }
+
+        .container form .btn {
+            margin-left: 50%;
+            transform: translatex(-50%);
+            width: 120px;
+            height: 34px;
+            border: none;
+            outline: none;
+            background: #a53860;
+            cursor: pointer;
+            font-size: 16px;
+            text-transform: uppercase;
+            color: white;
+            border-radius: 4px;
+        }
+
+
+/*keep things more organized and centered*/
+.wrapper {
+    width: 100%;
+    text-align: right;
+    background-color: #eee123;
+}
+
+nav {
+    width: 100%;
+    height: 100px;
+    background-color: #fff;
+}
+
+
+
+/*style and move around entire navigation*/
+ul {
+    margin-left: 60px;
+}
+
+    /*move around indiviual links*/
+    ul li {
+        list-style: none;
+        display: inline-block;
+        float: left;
+        line-height: 100px;
+    }
+
+        /*style the text inside the link*/
+        ul li a {
+            text-decoration: none; /*no underline*/
+            font-size: 14px;
+            font-family: arial;
+            color: #1e1e1e;
+            padding: 0 20px;
+        }
+            /*style the text inside the link*/
+            ul li a:hover {
+                color: red;
+            }
+
+.image-gaming {
+    width: 200px;
+    height: 200px;
+}
+
+.signup-form-form form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    padding: 40px;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,.6);
+    border-radius: 10px;
+}
+}
+
+.signup-form-form h2 {
+    margin: 0 0;
+    padding: 0;
+    color: black;
+    text-align: center;
+}
+
+.signup-form-form input {
+    width: 100%;
+    padding: 10px 0;
+    
+    color: #fff;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #fff;
+}
+
+.profile-img {
+    float: none;
+    margin: 0 auto;
+    width: 50%;
+    height: 50%;
+    -webkit-border-radius: 50% !important;
+    -moz-border-radius: 50% !important;
+    border-radius: 50% !important;
+}
+
+.mainHeader {
+    font-size: 30px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.wrapper {
+    border-style: solid;
+}
+
+.subHeader {
+    font-size: 20px;
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.games-form {
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    padding: 40px;
+    background-color: yellow;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.Temp h1 {
+
+   text-align: left;
+   font: bold;
 }

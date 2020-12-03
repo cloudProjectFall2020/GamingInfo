@@ -118,3 +118,19 @@ function loginUser($conn, $username, $pwd) {
 		exit();
 	}
 }
+
+function addGame($conn, $Title, $genre, $date, $favorite) {
+	$sql = "INSERT INTO Games (gameName, yearCreated, genre, favorite) VALUES (?, ?, ?, ?);";
+	$stmt = mysqli_stmt_init($conn);
+	if (!mysqli_stmt_prepare($stmt, $sql)) { //Check if sql statment will fail or not
+		header("location: ../form.php?error=stmtfailed");
+		exit();
+	}
+
+
+	mysqli_stmt_bind_param($stmt, "sssi", $Title, $genre, $date, $favorite);
+	mysqli_stmt_execute($stmt);
+	mysqli_stmt_close($stmt);
+	header("location: ../form.php?error=none"); //Go back into page
+	exit();
+}

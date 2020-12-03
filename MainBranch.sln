@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30717.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{A0786B88-2ADB-4C21-ABE8-AA2D79766269}") = "MainBranch", "MainBranch.phpproj", "{D4B65047-DA33-437C-93C2-1DC75F34D890}"
+EndProject
+Project("{A0786B88-2ADB-4C21-ABE8-AA2D79766269}") = "KamBranch", "..\..\..\OneDrive\Documents\GamingInfo-main (4)\KamBranch.phpproj", "{1B7FB4B5-F02A-4120-8A39-B34566D3A3C3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D4B65047-DA33-437C-93C2-1DC75F34D890}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4B65047-DA33-437C-93C2-1DC75F34D890}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B7FB4B5-F02A-4120-8A39-B34566D3A3C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B7FB4B5-F02A-4120-8A39-B34566D3A3C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AE7871BF-94AF-4E9D-981C-AE145445BC76}
+	EndGlobalSection
+EndGlobal
